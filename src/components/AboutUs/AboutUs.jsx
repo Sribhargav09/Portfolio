@@ -17,7 +17,7 @@ const AboutUs = (props) => {
         <SectionTitle
           title="About"
           titleInner="Me"
-          desc="A Senior Software Engineer and Architect, distinguished researcher and an entrepreneur with a robust academic foundation, holding a master's degree in computer science from San Francisco Bay University, USA. My pioneering contributions span blockchain, Internet of Things (IoT), and Artificial Intelligence (AI). I excel in both frontend and backend design, creating high-performance applications that drive innovation and ..."
+          desc="A Senior Software Engineer and Architect, distinguished researcher, and entrepreneur with a strong academic foundation, holding a master's degree in computer science from San Francisco Bay University, USA. My pioneering contributions span blockchain, Internet of Things (IoT), and Artificial Intelligence (AI). Excelling in software architecture and development, my proficiency in AI, ML, and cloud platforms has driven high-performance applications, pushing technological boundaries and inspiring future technologists. I have authored several books, published numerous papers, and hold multiple patents, reflecting my deep commitment to advancing technology and innovation."
         ></SectionTitle>
         <div className="aboutUs relative w-full p-[1.25rem] lg:p-[1.875rem] mt-[5.9375rem]">
           <div
@@ -43,16 +43,16 @@ const AboutUs = (props) => {
                     style={{ backgroundImage: `url(${PatternImg2})` }}
                   ></div>
                   <h3 className="text-accent2 font-light text-[1.5rem] md:text-[1.875rem] leading-tight font-Poppins">
-                    Hi,
+                  {" "}
+                  <span className="text-accent font-bold uppercase text-[1.5rem] md:text-[1.875rem]">
+                  Mentoring and Guidance
+                  </span>
                   </h3>
                   <h4 className="text-accent2 font-light text-[1.325rem] md:text-[1.5rem] leading-normal font-Poppins">
-                    My name is{" "}
-                    <span className="text-accent font-bold uppercase text-[1.5rem] md:text-[1.875rem]">
-                    Sri Bhargav Krishna Adusumilli
-                    </span>
+                  Providing support, advice, and resources to nurture the next generation of tech innovators
                   </h4>
                   <ul className="grid grid-cols-1 gap-5 mt-6">
-                    <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
+                    {/* <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
                       <strong className="text-desc3 uppercase font-bold font-Poppins col-span-1">
                         Phone:
                       </strong>
@@ -65,7 +65,7 @@ const AboutUs = (props) => {
                           +1 (510)693-3577
                         </a>
                       </span>
-                    </li>
+                    </li> */}
                     <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
                       <strong className="text-desc3 uppercase font-bold font-Poppins col-span-1">
                         Email:
@@ -85,7 +85,7 @@ const AboutUs = (props) => {
                         Address:
                       </strong>
                       <span className="text-desc2 font-semibold font-NunitoSans col-span-2">
-                      301 SE 3rd ST, APT#108, Dania Beach, Florida 33004
+                        Dania Beach, Florida 33004
                       </span>
                     </li>
                     <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
@@ -101,7 +101,7 @@ const AboutUs = (props) => {
                       </span>
                     </li>
                     <li>
-                    <section style={{"height": '496px', "box-shadow": 'rgba(142, 151, 158, 0.15) 0px 4px 19px 0px', "border-radius": '16px', "overflow": 'hidden', "width": '100%', "max-width": '650px'}}><iframe src="https://adplist.org/widgets/booking?src=sri-bhargav-krishna-adusumilli" title="" width="100%" height="100%" loading="lazy" style={{'border': '0px'}}></iframe></section>
+                    <section style={{"height": '596px', "box-shadow": 'rgba(142, 151, 158, 0.15) 0px 4px 19px 0px', "border-radius": '16px', "overflow": 'hidden', "width": '100%', "max-width": '650px'}}><iframe src="https://adplist.org/widgets/booking?src=sri-bhargav-krishna-adusumilli" title="" width="100%" height="100%" loading="lazy" style={{'border': '0px'}}></iframe></section>
                       
                     </li>
                   </ul>
